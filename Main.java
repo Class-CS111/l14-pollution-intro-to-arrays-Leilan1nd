@@ -81,7 +81,7 @@ class Main
     Main.printGraph(co2Levels, years);
 
     double averageLevels = co2Levels[size-1] - co2Levels[0];
-    System.out.printf("From 2001 to 2020, the average atmospheric CO₂ levels across the globe has grown %f pmm.%n", averageLevels);
+    System.out.printf("From 2001 to 2020, the average atmospheric CO₂ levels across the globe has grown %.2f pmm.%n", averageLevels);
   }
 /*Prints a single horizontal bar with one emoji for every whole number over 360 and displays the actual value to the right of the bar
  * 
